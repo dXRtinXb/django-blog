@@ -1,0 +1,148 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenvs (common names)
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.virtualenv/
+venv-*/
+.env/            # if you keep an env folder named .env (note: also used for dotenv files below)
+
+# pipenv / poetry
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+
+# pytest
+.pytest_cache/
+.cache
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*,cover
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+# If you collect static files into a folder, ignore the folder:
+staticfiles/
+# If you keep uploaded media files outside version control:
+media/
+uploads/
+
+# Django migrations: normally you SHOULD track migrations.
+# If you want to ignore migration files (not recommended), uncomment:
+# */migrations/*.py
+# */migrations/*.pyc
+# */migrations/__pycache__/
+
+# Environment / secret files
+.env
+.env.*            # ignore other env variants
+venv.env
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+
+# VS Code settings/history
+.history/
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# Node (if your project has a frontend)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnp/
+.pnp.js
+
+# Docker
+docker-compose.override.yml
+.env.build
+docker-compose.*.yml
+
+# Build / OS artifacts
+dist/
+tmp/
+temp/
+
+# Sphinx documentation build
+docs/_build/
+
+# mypy
+.mypy_cache/
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# IntelliJ
+out/
+
+# Optional: Visual Studio Code workspace file
+*.code-workspace
